@@ -13,13 +13,12 @@ html {
 }
 
 body {
-    width: 1152px;
-    min-height: 700px;
-    border: 1px solid #C4C4C4;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Roboto;
+    font-size: 14px;
 }
 
 .main-container {
@@ -78,7 +77,6 @@ input:focus {
 input {
     border: 0px;
     width: 191px;
-    font-size: 16px;
 }
 
 .list-element-container {
@@ -106,7 +104,6 @@ input {
     overflow: hidden;
     overflow: auto;
     scrollbar-width: none;
-    font-size: 16px;
 }
 
 
@@ -140,6 +137,5 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
     color: white;
 }
