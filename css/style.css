@@ -1,5 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 1152px;
+    min-height: 700px;
+    border: 1px solid #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.main-container {
+    width: 336px;
+    min-height: 236px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yellow-shape {
+    width: 336px;
+    height: 28px;
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: #C4C4C4;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #FFDC40;
+    position: relative;
+    bottom: 1px;
+}
+
+
+.title-image {
+    margin-top: 16px;
+}
+
+.sort-button-container {
+    width: 336px;
+    height: 15px;
+    margin-top: 12px;
+}
+
+.sort-button-image {
+    margin-left: 281px;
+}
+
+.input-container {
+    width: 286px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 9px 29px;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    border: 0px;
+    width: 191px;
+    font-size: 16px;
+}
+
+.list-element-container {
+    width: 286px;
+    min-height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-top: 12px;
+    padding: 9px 29px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list-element {
+    width: 226px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-element-text {
+    width: 191px;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow: auto;
+    scrollbar-width: none;
+    font-size: 16px;
+}
+
+
+.add-element-button-container {
+    width: 150px;
+    height: 42px;
+    border-radius: 71px;
+    background-color: #833AE0;
+    margin-top: 18px;
+    margin-bottom: 19px;
+    display: flex;
+}
+
+.new-input-button {
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 71px;
+    background-color: #9953F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+}
+
+.add-button {
+    display: block;
+    width: 93px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;
 }
