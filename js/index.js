@@ -14,19 +14,12 @@ sortButton.addEventListener('click', (event) => {
 });
 
 sortButton.addEventListener('mouseover', (event) => {
-    if (flag) {
-        event.target.src = "./assets/images/ascending-sort-button-hover.svg";
-    }
-    else {
-        event.target.src = "./assets/images/descending-sort-button-hover.svg";
-    }
+        event.target.src = flag ? "./assets/images/ascending-sort-button-hover.svg":
+        "./assets/images/descending-sort-button-hover.svg";
 });
 
 sortButton.addEventListener('mouseout', (event) => {
-    if (flag) {
-        event.target.src = "./assets/images/ascending-sort-button-default.svg";
-    }
-    else {
-        event.target.src = "./assets/images/descending-sort-button-default.svg";
-    }
+    event.target.src = flag ? "./assets/images/ascending-sort-button-default.svg":
+    "./assets/images/descending-sort-button-default.svg";
 });
+
