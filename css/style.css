@@ -43,7 +43,6 @@ body {
     bottom: 1px;
 }
 
-
 .title-image {
     margin-top: 16px;
 }
@@ -70,6 +69,7 @@ body {
     margin-top: 12px;
 }
 
+
 input:focus {
     outline: none;
 }
@@ -77,6 +77,8 @@ input:focus {
 input {
     border: 0px;
     width: 191px;
+    font-size: 14px;
+    font-family: Roboto;
 }
 
 .list-element-container {
@@ -86,7 +88,7 @@ input {
     border-radius: 10px;
     margin-top: 12px;
     padding: 9px 29px;
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 20px;
 }
@@ -104,6 +106,8 @@ input {
     overflow: hidden;
     overflow: auto;
     scrollbar-width: none;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -132,10 +136,11 @@ input {
 
 .add-button {
     display: block;
-    width: 93px;
+    width: 108px;
     height: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    padding-right: 15px;
 }
