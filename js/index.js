@@ -37,7 +37,7 @@ let addButton = document.querySelector(".add-button")
 addButton.addEventListener("click", event => {
     let input = document.querySelector("input");
 
-    // if (input.value) {
+    if (input.value) {
         let listElementContainer = document.querySelector(".list-element-container");
         let newChild = createListElement(input.value);
 
@@ -63,7 +63,7 @@ addButton.addEventListener("click", event => {
         input.parentElement.style.display = "none";
         listElementContainer.style.display = "flex";
         input.value = "";
-    // }
+    }
 });
 
 
